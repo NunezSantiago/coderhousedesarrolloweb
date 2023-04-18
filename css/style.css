@@ -137,7 +137,6 @@ footer p{
 
 /*Fin Contacto*/
 
-
 @media (min-width: 768px){
     footer{
         justify-content: space-around;
@@ -154,6 +153,15 @@ footer p{
 
     footer div:nth-child(3){
         text-align: right;
+    }
+
+    .prop-section2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .prop-section2 div{
+        width: 40%
     }
 }
 
