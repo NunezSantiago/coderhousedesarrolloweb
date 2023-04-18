@@ -36,6 +36,60 @@
             </div>
         </div>
     </nav>
+    <div class></div>
+    <!--
+     Nota para proxima entrega
+     Centrar el formulario en la pantalla y dentro de su contenedor
+     Agregar fondo con imagen difuminada al contenedor
+     -->
+    <main class="form-main">
+        <section class="container form-container">
+            <div class="row p-2">
+                <div class="d-lg-none text-center">
+                    <h1>Contacto</h1>
+                </div>
+                <div class="img-form col-lg-5 align-self-center">
+                    <img class="img-fluid" src="../img/fotos_salon/contacto.JPG" alt="">
+                </div>
+                <div class="d-flex flex-wrap form col-lg-5 p-2">
+                    <div class="d-none d-lg-block">
+                        <h1>Contacto</h1>
+                    </div>
+                    <form action="envio.php" class="">
+                        <div class="">
+                            <input type="text" placeholder="Nombre">
+                            <input type="text" placeholder="Apellido">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="E-Mail">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Numero de telefono">
+                        </div>
+                        <div>
+                            <select name="tipo">
+                                <option value="" disabled selected hidden>Tipo de Evento</option>
+                                <option value="quince">Cumpleaños de 15</option>
+                                <option value="boda">Boda</option>
+                                <option value="empresarial">Empresarial</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="number" placeholder="Cantidad de Invitados">
+                        </div>
+                        <div>
+                            <textarea name="" id="comentario" cols="40" rows="6" placeholder="Informacion adicional"></textarea>
+                        </div>
+                        <div>
+                            <input type="reset" value="Cancelar">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="d-flex">
         <div>
             <p>Contacto</p>
