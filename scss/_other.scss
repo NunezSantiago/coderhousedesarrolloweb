@@ -1,0 +1,36 @@
+//Galeria
+.foto {
+  width: 30%;
+  padding: $verticalSpacing $horizontalSpacing;
+}
+//Testimonios
+.testimoniosHeader {
+  padding: $verticalSpacing 0px;
+}
+
+.testimonio {
+  width: $w30;
+}
+//Propuesta
+.oferta{
+  figure{
+    figcaption{
+      font-family: "PT Serif", sans-serif;
+      font-size: 1.3rem;
+    }
+    img{
+      width: 15%;
+    }
+    p{
+      padding-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+//Contacto
+.formSection {
+  align-items: center;
+}
+.formulario div {
+  margin-top: 5px;
+}

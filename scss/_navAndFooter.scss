@@ -1,0 +1,28 @@
+.navegacion {
+  background-color: $navBackground;
+  img{
+    width: 150px;
+    height: auto;
+  }
+  li{
+    a{
+      color: white;
+      &:hover{
+        color: aqua;
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: $verticalSpacing;
+  img{
+    width: 32px;
+  }
+  p{
+    line-height: 8px;
+    &:nth-child(1){
+      font-size: 1.4rem;
+    }
+  }
+}
