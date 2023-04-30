@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=|, initial-scale=1.0">
     <title>Jardines de Marash</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body id="coso">
     <nav class="navbar navbar-expand-lg navbar-dark navegacion">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -44,12 +44,8 @@
             <hr>
         </div>
     </header>
-    <!--
-    Nota para proxima entrega
-    EL texto y la imagen se deberian presentar como una tarjeta cuando la pantalla es >= lg
-    -->
-    <main class="indice text-center">
-        <section class="tarjetaDescripcion d-flex flex-wrap justify-content-center">
+    <main class="text-center">
+        <section class="tarjetaDescripcion d-flex flex-wrap p-2">
             <div>
                 <img class='img-fluid' src="img/fotos_salon/entrada.jpeg" alt="Entrada del salon">
             </div>
@@ -61,6 +57,7 @@
                 <a href="pages/propuesta.html" class="roundedButton text-center">Conozca nuestra propuesta</a>
             </div>
         </section>
+
         <!-- Carrusel en modo mobile se cambia en desktop -->
 
         <section id="carouselExampleIndicators" class="carousel slide carousel-mobile carousel-galeria">
@@ -92,7 +89,9 @@
                 <a href="pages/galeria.html" class="roundedButton">Ver Mas</a>
             </div>
         </section>
+
         <!-- Carrusel en modo mobile, se cambia en desktop -->
+
         <section id="carouselExampleSlidesOnly" class="carousel slide carousel-mobile carousel-testimonios" data-bs-ride="carousel">
             <div>
                 <h2>Testimonios</h2>
@@ -183,7 +182,7 @@
             </div>
         </section>
 
-        <section class="mapa">
+        <section id="mapaIndex">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.7058319278126!2d-56.19994732322229!3d-34.86361817127243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a02aa945bc9a5f%3A0xcaf12c04f3683e25!2sSAL%C3%93N%20DE%20FIESTAS%20Y%20EVENTOS%20JARDINES%20DE%20MARASH!5e0!3m2!1ses-419!2suy!4v1681678232506!5m2!1ses-419!2suy"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>

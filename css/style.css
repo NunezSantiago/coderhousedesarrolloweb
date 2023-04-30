@@ -4,11 +4,10 @@
 
 *{
     font-weight: 400;
-    box-sizing: border-box;
 }
 
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /*no hace nada*/
 }
 
 ul{
@@ -83,15 +82,28 @@ h2{
         margin: auto;
         border: none;
     }
+.tarjetaDescripcion{
+    margin: 10px 10px;
+}
 
-tarjetaDescripcion{
-        margin: 10px 10px;
-    }
+.tarjetaDescripcion div img{
+    width: 90%;
 
-.mapa iframe{
-        width: 100%;
-        height: auto;
-    }
+}
+
+#mapaIndex iframe{
+    width: 100%;
+    height: auto;
+}
+
+#mapaContacto{
+    text-align: center;
+}
+
+#mapaContacto iframe{
+    width: 50%;
+    height: auto;
+}
 
 footer{
     margin-top: 10px;
@@ -163,9 +175,22 @@ footer p{
     .prop-section2 div{
         width: 40%
     }
+
+    .tarjetaDescripcion{
+        align-items: center;
+        font-size: 1.2rem;
+        justify-content: space-around;
+    }
+
+        .tarjetaDescripcion div{
+            width: 48%;
+            justify-content: space-around;
+        }
+
+            .tarjetaDescripcion div img{
+                width: 100%;
+            }
 }
-
-
 
 @media (max-width: 1199px){
     .foto{
@@ -246,5 +271,13 @@ footer p{
     footer img:hover{
         filter: grayscale(0%);
     }
+}
+
+.formSection{
+    align-items: center;
+}
+
+.formulario div{
+    margin-top: 5px;
 }
 
