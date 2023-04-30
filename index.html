@@ -9,221 +9,216 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body id="coso">
-    <nav class="navbar navbar-expand-lg navbar-dark navegacion">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/graphics/logo_oficial.png" alt="Logo de Jardines de Marash">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/nosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/testimonios.html">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/contacto.html" id="navContacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header class="indexHeader">
-        <img src="img/fotos_salon/welcomeImage.jpg" alt="Entrada del salon">
-        <div>
-            <p>Bienvenidos a</p>
-            <h1>Jardines de Marash</h1>
-            <hr>
-        </div>
-    </header>
-    <main class="text-center">
-        <section class="tarjetaDescripcion d-flex flex-wrap p-2">
-            <div>
-                <img class='img-fluid' src="img/fotos_salon/entrada.jpeg" alt="Entrada del salon">
-            </div>
-            <div class="align-items-center">
-                <p>Amamos lo que hacemos, por eso nos encargamos de cada detalle de su evento para que
-                    nuestros clientes y sus invitados disfruten de cada instante y nos recuerden con
-                    una sonrisa.
-                </p>
-                <a href="pages/propuesta.html" class="roundedButton text-center">Conozca nuestra propuesta</a>
-            </div>
-        </section>
-
-        <!-- Carrusel en modo mobile se cambia en desktop -->
-
-        <section id="carouselExampleIndicators" class="carousel slide carousel-mobile carousel-galeria">
-            <div>
-                <h2>Galeria</h2>
-            </div>
-            <div class="carousel-galeria-inner">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/fotos_salon/img_index/mesa-de-postres.jpg" class="d-block img-fluid" alt="Mesa de Postres">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/fotos_salon/img_index/zona-de-living.jpg" class="d-block img-fluid" alt="Zona de living">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/fotos_salon/img_index/zona-de-comedor.jpg" class="d-block img-fluid" alt="Zona de comedor">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <div>
-                <a href="pages/galeria.html" class="roundedButton">Ver Mas</a>
-            </div>
-        </section>
-
-        <!-- Carrusel en modo mobile, se cambia en desktop -->
-
-        <section id="carouselExampleSlidesOnly" class="carousel slide carousel-mobile carousel-testimonios" data-bs-ride="carousel">
-            <div>
-                <h2>Testimonios</h2>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <h3>Xabier</h3>
-                    <hr>
-                    <p>Quería agradecer a todo el equipo de esta casa, por el éxito de la celebración del 40 cumpleaños
-                        de mi esposo, porque el ambiente de este lugar es muy especial, como ningún otro lugar.
-                        ¡Ya estamos hablando de cuándo podemos celebrar su 50º!¡Gracias otra vez!
-                    </p>
-                </div>
-                <div class="carousel-item">
-                    <h3>Andrea</h3>
-                    <hr>
-                    <p>Hermoso lugar, agradezco la orientación para la organización del evento Temenda atención de
-                        principio a fin en todas las áreas. Muy recomendable
-                    </p>
-                </div>
-                <div class="carousel-item">
-                    <h3>Ana Inés</h3>
-                    <hr>
-                    <p>Pasamos una noche inolvidable en familia y amigos!!
-                        Excelente el servicio de catering y las/los mozos, muy buena calidad de atención y atentos en toda la fiesta.
-                        El Salón impecable y hermoso!!
-                        Muchas gracias!!!
-                    </p>
-                </div>
-            </div>
-            <div>
-                <a href="pages/testimonios.html" class="roundedButton">Ver Mas</a>
-            </div>
-        </section>
-
-        <section class="d-none d-xl-block galeria-desktop">
-            <div>
-                <h2>Galeria</h2>
-            </div>
-            <div class="galeria-desktop-inner">
-                <div>
-                    <img src="img/fotos_salon/img_index/mesa-de-postres.jpg" class="d-block w-100" alt="Mesa de Postres">
-                </div>
-                <div>
-                    <img src="img/fotos_salon/img_index/zona-de-living.jpg" class="d-block w-100" alt="Zona de living">
-                </div>
-                <div>
-                    <img src="img/fotos_salon/img_index/zona-de-comedor.jpg" class="d-block w-100" alt="Zona de comedor">
-                </div>
-            </div>
-            <div>
-                <a href="pages/galeria.html" class="roundedButton">Ver Mas</a>
-            </div>
-        </section>
-
-        <section class="d-none d-xl-block testimonios-desktop">
-            <div>
-                <h2>Testimonios</h2>
-            </div>
-            <div class="testimonios-desktop-inner">
-                <div>
-                    <h3>Xabier</h3>
-                    <hr>
-                    <p>Quería agradecer a todo el equipo de esta casa, por el éxito de la celebración del 40 cumpleaños
-                        de mi esposo, porque el ambiente de este lugar es muy especial, como ningún otro lugar.
-                        ¡Ya estamos hablando de cuándo podemos celebrar su 50º!¡Gracias otra vez!
-                    </p>
-                </div>
-                <div>
-                    <h3>Andrea</h3>
-                    <hr>
-                    <p>Hermoso lugar, agradezco la orientación para la organización del evento Temenda atención de
-                        principio a fin en todas las áreas. Muy recomendable
-                    </p>
-                </div>
-                <div>
-                    <h3>Ana Inés</h3>
-                    <hr>
-                    <p>Pasamos una noche inolvidable en familia y amigos!!
-                        Excelente el servicio de catering y las/los mozos, muy buena calidad de atención y atentos en toda la fiesta.
-                        El Salón impecable y hermoso!!
-                        Muchas gracias!!!
-                    </p>
-                </div>
-            </div>
-            <div>
-                <a href="pages/testimonios.html" class="roundedButton">Ver Mas</a>
-            </div>
-        </section>
-
-        <section id="mapaIndex">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.7058319278126!2d-56.19994732322229!3d-34.86361817127243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a02aa945bc9a5f%3A0xcaf12c04f3683e25!2sSAL%C3%93N%20DE%20FIESTAS%20Y%20EVENTOS%20JARDINES%20DE%20MARASH!5e0!3m2!1ses-419!2suy!4v1681678232506!5m2!1ses-419!2suy"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-    </main>
-    <footer class="d-flex">
-        <div>
-            <p>Contacto</p>
-            <p><i class="fa-regular fa-envelope"></i> jardinesdemarash@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i> (+598) 098 769 069</p>
-            <p><i class="fa-solid fa-location-dot"></i> Valdense 3525, Prado</p>
-        </div>
-        <div class="d-none d-md-block">
-            <a href="#" class="text-decoration-none text-center text-dark">Jardines de Marash</a>
-        </div>
-        <div>
-            <ul class="list-inline">
-                <li class="list-inline-item">
-                    <a href="https://www.instagram.com/marash.eventos.prado/" target="_blank">
-                        <img src="img/icons/redes_sociales/instagram.png" alt="Seguinos en Instagram">
-                    </a>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark navegacion">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/graphics/logo_oficial.png" alt="Logo de Jardines de Marash">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/nosotros.html">Sobre Nosotros</a>
                 </li>
-                <li class="list-inline-item">
-                    <a href="https://www.facebook.com/jardines.demarash" target="_blank">
-                        <img src="img/icons/redes_sociales/facebook.png" alt="Seguinos en Facebook">
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/galeria.html">Galeria</a>
                 </li>
-                <li class="list-inline-item">
-                    <a href="https://www.tiktok.com/@marash533" target="_blank">
-                        <img src="img/icons/redes_sociales/tiktok.png" alt="Seguinos en TikTok">
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/testimonios.html">Testimonios</a>
                 </li>
-                <li class="list-inline-item">
-                    <a href="https://api.whatsapp.com/send?phone=59898769069" target="_blank">
-                        <img src="img/icons/redes_sociales/whatsapp.png" alt="Contactanos por Whatsapp">
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html" id="navContacto">Contacto</a>
                 </li>
             </ul>
         </div>
-    </footer>
-    <!-- Script de Bootstrap y FontAwesome -->
-    <script src="https://kit.fontawesome.com/942f43923f.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </div>
+</nav>
+<header class="indexHeader">
+    <img src="img/fotos_salon/welcomeImage.jpg" alt="Entrada del salon">
+    <div>
+        <p>Bienvenidos a</p>
+        <h1>Jardines de Marash</h1>
+        <hr>
+    </div>
+</header>
+<main class="text-center">
+    <section class="tarjetaDescripcion d-flex flex-wrap p-2">
+        <div>
+            <img class='img-fluid' src="img/fotos_salon/entrada.jpeg" alt="Entrada del salon">
+        </div>
+        <div class="align-items-center">
+            <p>Amamos lo que hacemos, por eso nos encargamos de cada detalle de su evento para que
+                nuestros clientes y sus invitados disfruten de cada instante y nos recuerden con
+                una sonrisa.
+            </p>
+            <a href="pages/propuesta.html" class="roundedButton text-center">Conozca nuestra propuesta</a>
+        </div>
+    </section>
+    <!-- Carrusel de imagenes en modo mobile se cambia en desktop -->
+    <section id="carouselExampleIndicators" class="carousel slide carousel-mobile carousel-galeria">
+        <div>
+            <h2>Galeria</h2>
+        </div>
+        <div class="carousel-galeria-inner">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/fotos_salon/img_index/mesa-de-postres.jpg" class="d-block img-fluid" alt="Mesa de Postres">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/fotos_salon/img_index/zona-de-living.jpg" class="d-block img-fluid" alt="Zona de living">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/fotos_salon/img_index/zona-de-comedor.jpg" class="d-block img-fluid" alt="Zona de comedor">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div>
+            <a href="pages/galeria.html" class="roundedButton">Ver Mas</a>
+        </div>
+    </section>
+    <!-- Carrusel de testimonios en modo mobile, se cambia en desktop -->
+    <section id="carouselExampleSlidesOnly" class="carousel slide carousel-mobile carousel-testimonios" data-bs-ride="carousel">
+        <div>
+            <h2>Testimonios</h2>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h3>Xabier</h3>
+                <hr>
+                <p>Quería agradecer a todo el equipo de esta casa, por el éxito de la celebración del 40 cumpleaños
+                    de mi esposo, porque el ambiente de este lugar es muy especial, como ningún otro lugar.
+                    ¡Ya estamos hablando de cuándo podemos celebrar su 50º!¡Gracias otra vez!
+                </p>
+            </div>
+            <div class="carousel-item">
+                <h3>Andrea</h3>
+                <hr>
+                <p>Hermoso lugar, agradezco la orientación para la organización del evento Temenda atención de
+                    principio a fin en todas las áreas. Muy recomendable
+                </p>
+            </div>
+            <div class="carousel-item">
+                <h3>Ana Inés</h3>
+                <hr>
+                <p>Pasamos una noche inolvidable en familia y amigos!!
+                    Excelente el servicio de catering y las/los mozos, muy buena calidad de atención y atentos en toda la fiesta.
+                    El Salón impecable y hermoso!!
+                    Muchas gracias!!!
+                </p>
+            </div>
+        </div>
+        <div>
+            <a href="pages/testimonios.html" class="roundedButton">Ver Mas</a>
+        </div>
+    </section>
+    <!-- Galeria de imagenes se muestra solo en desktop-->
+    <section class="d-none d-xl-block galeria-desktop">
+        <div>
+            <h2>Galeria</h2>
+        </div>
+        <div class="galeria-desktop-inner">
+            <div>
+                <img src="img/fotos_salon/img_index/mesa-de-postres.jpg" class="d-block w-100" alt="Mesa de Postres">
+            </div>
+            <div>
+                <img src="img/fotos_salon/img_index/zona-de-living.jpg" class="d-block w-100" alt="Zona de living">
+            </div>
+            <div>
+                <img src="img/fotos_salon/img_index/zona-de-comedor.jpg" class="d-block w-100" alt="Zona de comedor">
+            </div>
+        </div>
+        <div>
+            <a href="pages/galeria.html" class="roundedButton">Ver Mas</a>
+        </div>
+    </section>
+    <!-- Galeria de testimonios se muestra solo en desktop-->
+    <section class="d-none d-xl-block testimonios-desktop">
+        <div>
+            <h2>Testimonios</h2>
+        </div>
+        <div class="testimonios-desktop-inner">
+            <div>
+                <h3>Xabier</h3>
+                <hr>
+                <p>Quería agradecer a todo el equipo de esta casa, por el éxito de la celebración del 40 cumpleaños
+                    de mi esposo, porque el ambiente de este lugar es muy especial, como ningún otro lugar.
+                    ¡Ya estamos hablando de cuándo podemos celebrar su 50º!¡Gracias otra vez!
+                </p>
+            </div>
+            <div>
+                <h3>Andrea</h3>
+                <hr>
+                <p>Hermoso lugar, agradezco la orientación para la organización del evento Temenda atención de
+                    principio a fin en todas las áreas. Muy recomendable
+                </p>
+            </div>
+            <div>
+                <h3>Ana Inés</h3>
+                <hr>
+                <p>Pasamos una noche inolvidable en familia y amigos!!
+                    Excelente el servicio de catering y las/los mozos, muy buena calidad de atención y atentos en toda la fiesta.
+                    El Salón impecable y hermoso!!
+                    Muchas gracias!!!
+                </p>
+            </div>
+        </div>
+        <div>
+            <a href="pages/testimonios.html" class="roundedButton">Ver Mas</a>
+        </div>
+    </section>
+    <section id="mapaIndex">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.7058319278126!2d-56.19994732322229!3d-34.86361817127243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a02aa945bc9a5f%3A0xcaf12c04f3683e25!2sSAL%C3%93N%20DE%20FIESTAS%20Y%20EVENTOS%20JARDINES%20DE%20MARASH!5e0!3m2!1ses-419!2suy!4v1681678232506!5m2!1ses-419!2suy"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</main>
+<footer class="d-flex">
+    <div>
+        <p>Contacto</p>
+        <p><i class="fa-regular fa-envelope"></i> jardinesdemarash@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> (+598) 098 769 069</p>
+        <p><i class="fa-solid fa-location-dot"></i> Valdense 3525, Prado</p>
+    </div>
+    <div class="d-none d-md-block">
+        <a href="#" class="text-decoration-none text-center text-dark">Jardines de Marash</a>
+    </div>
+    <div>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/marash.eventos.prado/" target="_blank">
+                    <img src="img/icons/redes_sociales/instagram.png" alt="Seguinos en Instagram">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/jardines.demarash" target="_blank">
+                    <img src="img/icons/redes_sociales/facebook.png" alt="Seguinos en Facebook">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.tiktok.com/@marash533" target="_blank">
+                    <img src="img/icons/redes_sociales/tiktok.png" alt="Seguinos en TikTok">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://api.whatsapp.com/send?phone=59898769069" target="_blank">
+                    <img src="img/icons/redes_sociales/whatsapp.png" alt="Contactanos por Whatsapp">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<!-- Script de Bootstrap y FontAwesome -->
+<script src="https://kit.fontawesome.com/942f43923f.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
