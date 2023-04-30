@@ -120,7 +120,19 @@ h2 {
 }
 /*Fin Testimonios*/
 /*Propuesta*/
+.oferta figure figcaption{
+    font-family: "PT Serif", sans-serif;
+    font-size: 1.3rem;
+}
 
+.oferta figure img{
+    width: 15%;
+}
+
+.oferta figure p{
+    padding-top: 0;
+    margin-bottom: 0;
+}
 /*Fin Propuesta*/
 /*Nosotros*/
 
