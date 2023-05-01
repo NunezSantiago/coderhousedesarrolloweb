@@ -4,13 +4,20 @@
   padding: $verticalSpacing $horizontalSpacing;
 }
 //Testimonios
-.testimoniosHeader {
-  padding: $verticalSpacing 0px;
+
+.testimonio{
+  width: 100%;
+  @media(min-width: 768px){
+    width: 40%
+  }
+  @media(min-width: 1140px){
+    width: 30%
+  }
+  h2{
+    text-align: center;
+  }
 }
 
-.testimonio {
-  width: $w30;
-}
 //Propuesta
 .oferta{
   figure{

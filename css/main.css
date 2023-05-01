@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 * {
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,19 +32,22 @@ h2 {
   font-family: "PT Serif", sans-serif;
 }
 
-.roundedButton {
+.generalButton, .roundedButton {
   text-decoration: none;
   color: #000;
   padding: 10px 25px;
   border: #1b3039 outset;
-  border-radius: 50px;
   background: #d9d9d9;
   transition: 0.2s;
 }
-.roundedButton:hover {
+.generalButton:hover, .roundedButton:hover {
   background-color: #fff;
   border: #1b3039 inset;
   text-decoration: none;
+}
+
+.roundedButton {
+  border-radius: 50px;
 }
 
 .navegacion {
@@ -128,12 +132,21 @@ footer p:nth-child(1) {
   padding: 10px 10px;
 }
 
-.testimoniosHeader {
-  padding: 10px 0px;
-}
-
 .testimonio {
-  width: 30%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .testimonio {
+    width: 40%;
+  }
+}
+@media (min-width: 1140px) {
+  .testimonio {
+    width: 30%;
+  }
+}
+.testimonio h2 {
+  text-align: center;
 }
 
 .oferta figure figcaption {
