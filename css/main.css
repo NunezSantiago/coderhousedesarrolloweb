@@ -61,6 +61,8 @@ h2 {
 
 footer {
   margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 footer img {
   width: 32px;
@@ -132,9 +134,23 @@ footer p:nth-child(1) {
 .formSection {
   align-items: center;
 }
+@media (max-width: 991px) {
+  .formSection div .submitButton {
+    text-align: right;
+  }
+}
 
 .formulario div {
   margin-top: 5px;
+}
+
+#mapaContacto {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  #mapaContacto iframe {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {

@@ -30,7 +30,23 @@
 //Contacto
 .formSection {
   align-items: center;
+  div{
+    .submitButton{
+      @media (max-width: 991px){
+        text-align: right;
+      }
+    }
+  }
 }
 .formulario div {
   margin-top: 5px;
+}
+
+#mapaContacto{
+  text-align: center;
+  iframe {
+    @media(max-width: 576px){
+      width: 100%;
+    }
+  }
 }
