@@ -1,8 +1,7 @@
 .navegacion {
   background-color: $navBackground;
   img{
-    width: 150px;
-    height: auto;
+    @include imgSize(150px);
   }
   li{
     a{
@@ -25,7 +24,7 @@ footer {
   margin-left: $horizontalSpacing;
   margin-right: $horizontalSpacing;
   img{
-    width: 32px;
+    @include imgSize(32px);
     &:hover{
       animation-name: imgRotation;
       animation-duration: 2s;

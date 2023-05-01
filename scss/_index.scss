@@ -1,6 +1,6 @@
 .indexHeader{
   img {
-    width: $w100;
+    @include imgSize(100%);
   }
   div{
     text-align: center;
@@ -24,14 +24,13 @@
   margin: $verticalSpacing $horizontalSpacing;
   div{
     img{
-      width: 90%;
+      @include imgSize(90%);
     }
   }
 }
 
 #mapaIndex{
   iframe {
-    width: $w100;
-    height: auto;
+    @include imgSize(100%);
   }
 }
