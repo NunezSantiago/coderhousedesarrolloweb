@@ -14,12 +14,23 @@
   }
 }
 
+@keyframes imgRotation{
+  20% {transform:rotate(15deg)}
+  50% {transform:rotate(-15deg)}
+  70% {transform:scale(1.2)}
+}
+
 footer {
   margin-top: $verticalSpacing;
   margin-left: $horizontalSpacing;
   margin-right: $horizontalSpacing;
   img{
     width: 32px;
+    &:hover{
+      animation-name: imgRotation;
+      animation-duration: 2s;
+      animation-timing-function: ease-in;
+    }
   }
   p{
     line-height: 8px;
