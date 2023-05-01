@@ -146,6 +146,7 @@ footer p:nth-child(1) {
 
 #mapaContacto {
   text-align: center;
+  height: auto;
 }
 @media (max-width: 576px) {
   #mapaContacto iframe {
