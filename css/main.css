@@ -124,6 +124,11 @@ footer p:nth-child(1) {
   width: 90%;
   height: auto;
 }
+@media (max-width: 767px) {
+  .tarjetaDescripcion div p {
+    margin-top: 8px;
+  }
+}
 
 #mapaIndex iframe {
   width: 100%;

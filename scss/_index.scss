@@ -26,6 +26,11 @@
     img{
       @include imgSize(90%);
     }
+    p{
+      @media (max-width: 767px){
+        margin-top: 8px;
+      }
+    }
   }
 }
 
