@@ -1,0 +1,17 @@
+.footerError404{
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+}
+
+.contenedorError404{
+  position: relative;
+  text-align: center;
+  .error404{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: (-50%, -50%);
+  }
+}

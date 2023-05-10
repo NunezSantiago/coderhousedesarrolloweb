@@ -305,5 +305,22 @@ footer p:nth-child(1) {
     filter: grayscale(0%);
   }
 }
+.footerError404 {
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+}
+
+.contenedorError404 {
+  position: relative;
+  text-align: center;
+}
+.contenedorError404 .error404 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: -50%, -50%;
+}
 
 /*# sourceMappingURL=main.css.map */
